@@ -1,0 +1,44 @@
+# Core Python utilities
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+
+# Async support (standard but safe to include)
+aiohttp>=3.9.0
+
+# Data handling
+pandas>=2.0.0
+openpyxl>=3.1.2
+
+# Document processing
+python-docx>=1.1.0
+pypdf>=4.0.0
+
+# LangChain ecosystem
+langchain>=0.2.0
+langchain-core>=0.2.0
+langchain-community>=0.2.0
+
+# Integrations
+langchain-groq>=0.1.0
+langchain-huggingface>=0.0.3
+
+# Vector DB
+faiss-cpu>=1.7.4
+
+# Retrieval + reranking
+flashrank>=0.2.0
+rank-bm25>=0.2.2
+
+# HuggingFace embeddings backend
+huggingface-hub>=0.23.0
+sentence-transformers>=2.7.0
+
+# LangSmith tracing
+langsmith>=0.1.0
+
+# Image handling
+pillow>=10.0.0
+
+# Optional but recommended (better performance / stability)
+tqdm>=4.66.0
+numpy>=1.24.0
