@@ -42,3 +42,7 @@ pillow>=10.0.0
 # Optional but recommended (better performance / stability)
 tqdm>=4.66.0
 numpy>=1.24.0
+
+# UI
+streamlit>=1.35.0
+watchdog>=4.0.0
