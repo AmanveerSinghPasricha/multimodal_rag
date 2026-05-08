@@ -1,0 +1,19 @@
+# Secrets
+.env
+multimodal-rag-app/.env
+
+# Python junk
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Large Data & Local Models
+multimodal-rag-app/model_cache/
+multimodal-rag-app/uploads/
+multimodal-rag-app/memory/
+multimodal-rag-app/data/
+
+# OS files
+.DS_Store
+Thumbs.db
